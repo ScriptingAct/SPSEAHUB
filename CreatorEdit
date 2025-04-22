@@ -43,13 +43,4 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab(Blox Fruit", 4483362458) -- Title, Image
-
-local Button = Tab:CreateButton({
-   Name = "Xenon Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/b4H4ViZW",true))()
-   end,
-})
-
 
