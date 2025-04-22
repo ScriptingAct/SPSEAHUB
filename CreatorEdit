@@ -34,30 +34,22 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("The Rake By Dragon", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("The Rake", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "Infinite Yield",
+   Name = "SPSEAHUB T Rake",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source'))()
+   loadstring(game:HttpGet('https://pastebin.com/raw/WPkmhhs1'))()
    end,
 })
 
-local Tab = Window:CreateTab("Blade ball", 4483362458) -- Title, Image
+local Tab = Window:CreateTab(Blox Fruit", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "Auto Parry Normal",
+   Name = "Xenon Hub",
    Callback = function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/AbQ5DFEg",true))()
+   loadstring(game:HttpGet("https://pastebin.com/raw/b4H4ViZW",true))()
    end,
 })
 
-local Toggle = Tab:CreateToggle({
-   Name = "Auto Parry Normal",
-   CurrentValue = false,
-   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Value)
-   loadstring(game:HttpGet("https://pastebin.com/raw/AbQ5DFEg",true))()
-   -- The variable (Value) is a boolean on whether the toggle is true or false
-   end,
-})
+
